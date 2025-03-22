@@ -4,8 +4,8 @@
 @import "yakuhanjp/dist/css/yakuhanjp_s.css";
 
 body {
-  background-color: #f5f6f6;
   color: #000000de;
+  background-color: #f5f6f6;
   font-family: "YakuHanJPs", "-apple-system", "BlinkMacSystemFont", "Segoe UI",
     "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
 }
