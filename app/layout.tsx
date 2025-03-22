@@ -1,5 +1,7 @@
-import "@/app/styles/globals.css";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
+import Header from "@/components/layout/header/page";
+import Nav from "@/components/layout/nav/page";
 
 export const metadata: Metadata = {
   title: "Qeeta",
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <Nav />
+        {children}
+      </body>
     </html>
   );
 }

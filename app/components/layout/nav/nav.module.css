@@ -1,0 +1,8 @@
+.nav {
+  max-width: 1656px;
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+}

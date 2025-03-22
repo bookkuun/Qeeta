@@ -1,0 +1,10 @@
+.logo {
+  padding: 6px 10px;
+  border-radius: 4px;
+  background-color: #55c500;
+}
+
+.logo svg {
+  height: 18px;
+  fill: white;
+}
